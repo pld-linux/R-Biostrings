@@ -3,7 +3,7 @@
 Summary:	String objects representing biological sequences
 Name:		R-%{packname}
 Version:	2.30.1
-Release:	1
+Release:	2
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
@@ -12,10 +12,12 @@ URL:		http://bioconductor.org/packages/release/bioc/html/Biostrings.html
 BuildRequires:	R
 BuildRequires:	R-Biobase
 BuildRequires:	R-IRanges-devel >= 1.6.6
+BuildRequires:	R-XVector-devel
 BuildRequires:	texlive-latex
 Requires:	R
 Requires:	R-Biobase
 Requires:	R-IRanges >= 1.6.6
+Requires:	R-XVector
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
