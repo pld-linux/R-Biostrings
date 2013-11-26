@@ -2,12 +2,12 @@
 
 Summary:	String objects representing biological sequences
 Name:		R-%{packname}
-Version:	2.26.2
+Version:	2.30.1
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	a15baec03008e4c7c6f605a14ddd46af
+# Source0-md5:	acf4d4047855f20096e751cf5fadbf5e
 URL:		http://bioconductor.org/packages/release/bioc/html/Biostrings.html
 BuildRequires:	R
 BuildRequires:	R-Biobase
