@@ -3,7 +3,7 @@
 Summary:	String objects representing biological sequences
 Name:		R-%{packname}
 Version:	2.30.1
-Release:	2
+Release:	3
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
